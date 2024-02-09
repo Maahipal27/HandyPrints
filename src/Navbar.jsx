@@ -30,7 +30,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as='nav' className='bg-white '>
+    <Disclosure as='nav' className='bg-[#F6F5F4] '>
       {({ open }) => (
         <>
           <div className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8'>
@@ -87,11 +87,11 @@ export default function Navbar() {
                 {/* Profile dropdown */}
                 <Menu as='div' className='relative ml-3'>
                   <div>
-                    <Menu.Button className='relative md:ms-[600px] flex rounded-full bg-white-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800'>
+                    <Menu.Button className='relative flex rounded-full bg-white-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800'>
                       <span className='absolute -inset-1.5' />
                       <span className='sr-only'>Open user menu</span>
                       <img
-                        className='h-15 w-15  pt-5 ms-72 '
+                        className=' h-15 w-15  pt-5 ms-80 md:ms-96'
                         src='./img/handylogo.png'
                         alt=''
                       />
