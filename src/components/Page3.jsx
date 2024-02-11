@@ -12,10 +12,6 @@ const Page3 = () => {
         <p className="text-gray-600 text-l  "> for students. Our mission is to alleviate their stress and empower them to excel. Through</p>
         <p className="text-gray-600 text-l  "> our comprehensive services, we provide expert assistance, convenience, and affordability,</p>
          <p className="text-gray-600 text-l  "> fostering an environment where every student can thrive.</p>
-         
-        
-            
-            
             </div>
             <div>
             <img className="md:-top-60 left-5 md:left-0 w-[350px] h-[400px] md:w-[550px] md:h-[400px]" src="./img/image 2.png" alt="Image 2" />
