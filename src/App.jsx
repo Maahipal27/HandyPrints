@@ -8,6 +8,7 @@ import Contacts from "./pages/Contact";
 import Social from "./pages/Social";
 import Guide from "./pages/Guide";
 import "./App.css";
+import { useState } from "react";
 
 // Layout component that includes Navbar
 const Layout = ({ children }) => (
@@ -18,16 +19,17 @@ const Layout = ({ children }) => (
 );
 
 function App() {
+  const [isVisible,setIsVisible]=useState(false);
   return (
     <Router>
       <Routes>
         <Route
           path="/"
           element={<Layout>
-            <Frontt />
-            <Pagetwo />
-            <Page3 />
-            <Page4 />
+            <Frontt setIsVisible={setIsVisible} />
+            {isVisible && <Pagetwo />}
+            {isVisible && <Page3 />}
+           {isVisible && <Page4 />}
           </Layout>}
         />
         <Route path="/contact" element={<Layout><Contacts /></Layout>} />

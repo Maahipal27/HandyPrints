@@ -25,21 +25,22 @@ Our commitment to excellence extends beyond academic support. Handy Prints also 
         />
         <div>
           <h1 className="text-black -top-36 text-3xl md:text-4xl font-extrabold font-sans md:px-10 px-32">
-           Lightning-Fast <br /> Turn Around?
+            Lightning-Fast <br /> Turn Around?
           </h1>
           <div className="para">
             <p className="text-black text-base md:text-base md:pr-72 px-11 py-3 font-sans">
-            Say goodbye to eleventh-hour panics. Our team of experts ensures that your assignments are returned to you quickly, without compromising quality.
+              Say goodbye to eleventh-hour panics. Our team of experts ensures
+              that your assignments are returned to you quickly, without
+              compromising quality.
             </p>
           </div>
           <div className="md:pr-96 top-7">
-          <a href="" class="block w-32 mx-auto">
-  <button class="text-center cursor-pointer bg-[#C3DCE3] text-[#2B788B] font-sans font-bold w-full py-2 px-4 rounded-full">
-  view more
-  </button>
-</a>
-</div>
-
+            <a href="" className="block w-32 mx-auto">
+              <button className="text-center cursor-pointer bg-[#C3DCE3] text-[#2B788B] font-sans font-bold w-full py-2 px-4 rounded-full">
+                view more
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>

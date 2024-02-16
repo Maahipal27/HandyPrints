@@ -21,14 +21,14 @@ Our commitment to excellence extends beyond academic support. Handy Prints also 
       <div className="flex flex-col md:flex-row justify-between items-center h-full py-5 top-80">
         <img
           src="./img/image 21.png"
-          className="flex flex-col md:flex-row px-10 w-[350px] h-[400px] md:w-2/5 md:h-4/5 mb-8 md:mb-0"
+          className="flex flex-col md:flex-row px-10 w-[350px] h-[400px] md:w-[350px] md:h-[350px] mb-8 md:mb-0"
         />
         <div>
-          <h1 className="text-black -top-36 text-4xl font-extrabold font-sans md:px-0 px-32">
+          <h1 className="text-black -top-36 text-4xl font-extrabold font-sans px-32 md:px-48">
             WHY WORK <br /> WITH US?
           </h1>
           <div className="para">
-            <p className="text-black text-sm md:text-base  md:px-0 px-11 py-3 font-sans">
+            <p className="text-black text-sm md:text-base  px-28 px-11 py-3 font-sans">
               In a world where education has become increasingly demanding and
               time-consuming, students often find themselves juggling multiple
               assignments, projects, and exams. Navigating this academic
