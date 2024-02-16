@@ -5,7 +5,6 @@ Tech Stack
 1.React.js
 2.Tailwindcss
 
-
 Getting Started with this project
 1.Clone this project using command git clone command or download the repository as zip file.
 2.Open the repository in a code editor. For eg- VsCode.
