@@ -19,22 +19,45 @@ const Layout = ({ children }) => (
 );
 
 function App() {
-  const [isVisible,setIsVisible]=useState(false);
+  const [isVisible, setIsVisible] = useState(false);
   return (
     <Router>
       <Routes>
         <Route
-          path="/"
-          element={<Layout>
-            <Frontt setIsVisible={setIsVisible} />
-            {isVisible && <Pagetwo />}
-            {isVisible && <Page3 />}
-           {isVisible && <Page4 />}
-          </Layout>}
+          path='/'
+          element={
+            <Layout>
+              <Frontt setIsVisible={setIsVisible} />
+              {isVisible && <Pagetwo />}
+              {isVisible && <Page3 />}
+              {isVisible && <Page4 />}
+            </Layout>
+          }
         />
-        <Route path="/contact" element={<Layout><Contacts /></Layout>} />
-        <Route path="/guide" element={<Layout><Guide /></Layout>} />
-        <Route path="/social" element={<Layout><Social /></Layout>} />
+        <Route
+          path='/contact'
+          element={
+            <Layout>
+              <Contacts />
+            </Layout>
+          }
+        />
+        <Route
+          path='/guide'
+          element={
+            <Layout>
+              <Guide />
+            </Layout>
+          }
+        />
+        <Route
+          path='/social'
+          element={
+            <Layout>
+              <Social />
+            </Layout>
+          }
+        />
       </Routes>
     </Router>
   );
