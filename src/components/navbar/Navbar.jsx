@@ -16,7 +16,7 @@ export default function Navbar() {
     <Disclosure as='nav' className='bg-[#F6F5F4]'>
       {({ open }) => (
         <>
-          <div className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 w-screen'>
+          <div className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 w-full'>
             <div className='relative flex h-16 items-center justify-between'>
               <div className='absolute inset-y-0 left-0 flex items-center sm:hidden'>
                 {/* Mobile menu button*/}
@@ -69,12 +69,12 @@ export default function Navbar() {
                 </button> */}
 
                 {/* Profile dropdown */}
-                <div className='flex justify-center items-center'>
+                <div className='flex justify-end '>
                   <img
-                    className='ml-72 md:ml-0 md:w-28 w-20 h-20 md:h-24 mt-4'
+                    className='md:w-28 w-20 h-20 md:h-24 mt-4'
                     src='./img/handylogo.png'
                     alt=''
-                    id='cartImg'
+                    id=''
                   />
                 </div>
               </div>
