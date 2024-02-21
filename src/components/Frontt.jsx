@@ -16,7 +16,7 @@ const Frontt = ({ setIsVisible }) => {
   return (
     <div className='bg-[#F6F5F4] flex-col flex md:flex-row md:-top-96 justify-between items-center h-screen'>
       <div className='h-1/2 w-full md:h-full px-10 flex flex-col justify-center items-center mb-48 py-1'>
-        <h2 className='text-[#2B788B] font-bold text-xl m-3 text-center px-5'>
+        <h2 className='text-[#2B788B] font-bold  text-xl m-5 text-center px-5'>
           E-PLATFORM FOR PROJECTS
         </h2>
         <h1 className='text-black-500 text-4xl md:text-6xl m-1 font-bold text-center px-10'>
