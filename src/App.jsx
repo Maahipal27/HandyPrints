@@ -9,6 +9,7 @@ import Social from "./pages/Social";
 import Guide from "./pages/Guide";
 import "./App.css";
 import { useState } from "react";
+import Footer from "./components/Footer";
 
 // Layout component that includes Navbar
 const Layout = ({ children }) => (
@@ -31,6 +32,7 @@ function App() {
               {isVisible && <Pagetwo />}
               {isVisible && <Page3 />}
               {isVisible && <Page4 />}
+              <Footer />
             </Layout>
           }
         />

@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 
 const Frontt = ({ setIsVisible }) => {
   const onClickHandler = () => {
@@ -14,7 +13,7 @@ const Frontt = ({ setIsVisible }) => {
     }, 1);
   };
   return (
-    <div className='bg-[#F6F5F4] flex-col flex md:flex-row md:-top-96 justify-between items-center h-screen mb-12'>
+    <div className='bg-[#F6F5F4] flex-col flex md:flex-row md:-top-96 justify-between items-center h-screen mb-12 md:mb-0'>
       <div className='h-1/2 w-full md:h-full px-10 flex flex-col justify-center items-center mb-48 py-1'>
         <h2 className='text-[#2B788B] font-bold  text-xl mt-14 mb-10 text-center px-5'>
           E-PLATFORM FOR PROJECTS
